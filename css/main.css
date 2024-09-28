@@ -14,7 +14,7 @@
 
 html {
   scroll-behavior: smooth !important;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   scroll-padding-top: 2rem;
   font-size: 100%;
 
@@ -383,6 +383,7 @@ h1, h2, h3, .h1, .h2, .h3 {
 @media (max-width:768px) {
   html {
     font-size: 80% !important;
+    overflow-x: hidden !important;
   }
 
   .big-text {
@@ -394,6 +395,7 @@ h1, h2, h3, .h1, .h2, .h3 {
 @media (max-width:450px) {
   html {
     font-size: 70% !important;
+    overflow-x:hidden !important ;
   }
 
   .big-text {
